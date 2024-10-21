@@ -1,7 +1,7 @@
 #! /bin/bash
 
 function suma() {
-	rdo=$(($1+$2))
+	rdo=$(($1-$2))
 	echo $rdo
 }
 function resta() {
