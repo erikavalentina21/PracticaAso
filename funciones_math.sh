@@ -5,6 +5,6 @@ function suma() {
 	echo $rdo
 }
 function resta() {
-	rdo=$(($1+$2))
+	rdo=$(($1-$2))
 	echo $rdo
 }
